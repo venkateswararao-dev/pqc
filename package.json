@@ -1,0 +1,23 @@
+{
+  "name": "pqc",
+  "version": "1.0.13",
+  "description": "JS Implementation of NIST PQC FIPS Standards",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js",
+    "benchmark": "node benchmark.js"
+  },
+  "keywords": [
+    "post",
+    "quantum",
+    "cryptography",
+    "pqc",
+    "nist"
+  ],
+  "author": "Nithin",
+  "license": "MIT",
+  "dependencies": {
+    "@noble/hashes": "^1.7.1"
+  }
+}
